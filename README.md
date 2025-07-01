@@ -116,8 +116,10 @@ Argparse (CLI interface)
 1️⃣ Clone the Repository:
 git clone :https://github.com/swathikiran123/matching-nomatch_partner-
 2️⃣ Install Dependencies:
+pip install -r requirements.txt
 
 3️⃣ Run Inference Script:
+python inference.py 
 
 4️⃣ Launch Streamlit App:
 
