@@ -126,29 +126,36 @@ streamlit run app.py
 📂 Project Structure:
 
 match-prediction-ann/
+
 ├── data/
 │   ├── raw/                 # Raw synthetic responses (Google Form)
 │   ├── cleaned/             # Cleaned & preprocessed datasets
 │   └── data.csv            # Final dataset for training & inference
 │
+
 ├── notebooks/
 │   └── optuna DL.ipynb           # Exploratory Data Analysis notebook
 │
+
 ├── models/
 │   └── ann_model.h5        # Saved ANN weights
 │
+
 ├── app/
 │   ├── app.py             # Streamlit app script
 │   └── utils.py           # Utility functions for app
 │
+
 ├── scripts/
 │   ├── train.py          # Script for model training
 │   ├── run.py            # Inference script using argparse (CLI)
 │   └── preprocess.py     # Data preprocessing & labeling script
 │
+
 ├── config/
 │   └── config.yaml       # Hyperparameters & global configs
 │
+
 ├── requirements.txt     
 ├── README.md           
 ├── LICENSE
