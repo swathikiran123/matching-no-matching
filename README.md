@@ -27,10 +27,14 @@ This project involves the development of an Artificial Neural Network (ANN) to p
 Source: Synthetic (collected via Google Form)
 Entries: 140+ responses
 Cleaning: Dropped columns like Timestamp, Email Address
+
 **🏷 Data Labeling**
+
 Technique: KMeans Clustering (n_clusters=2)
 Why: Automatically generates labels by uncovering hidden patterns in the data—no manual annotation or predefined rules required
+
 **🔧 Data Preprocessing**
+
 Label Encoding: Converted categorical labels to integers using LabelEncoder
 Why: Efficient for small datasets with clear label classes
 🧠 Model Architecture
@@ -106,15 +110,13 @@ Argparse (CLI interface)
 
 🚀 Getting Started
 1️⃣ Clone the Repository:
-git clone 
+git clone :
 
 cd match-prediction-ann
 2️⃣ Install Dependencies:
 
-pip install -r requirements.txt
 3️⃣ Run Inference Script:
 
-python inference.py --weights_path weights.h5 --num_preds 5
 4️⃣ Launch Streamlit App:
 
 streamlit run app.py
