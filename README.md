@@ -104,11 +104,16 @@ Argparse (CLI interface)
 🚀 Getting Started
 1️⃣ Clone the Repository:
 git clone 
+
 cd match-prediction-ann
 2️⃣ Install Dependencies:
+
 pip install -r requirements.txt
 3️⃣ Run Inference Script:
+
 python inference.py --weights_path weights.h5 --num_preds 5
 4️⃣ Launch Streamlit App:
+
 streamlit run app.py
+
 📂 Project Structure
