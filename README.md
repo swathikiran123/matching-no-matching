@@ -57,10 +57,14 @@ Metrics: Accuracy, Precision, Recall
 💻 Hugging Face Demo:https://huggingface.co/spaces/Swathikiran/matching
 
 streamlit run app.py
+
 🧪 Inference Script (CLI)
+
 Use the run.py script to make predictions from the terminal.
 
+
 Built an inference script using argparse to allow CLI usage:
+
 
 --weights_path: Path to trained model
 --data_path: Path to prediction data (default: data.csv)
@@ -110,9 +114,7 @@ Argparse (CLI interface)
 
 🚀 Getting Started
 1️⃣ Clone the Repository:
-git clone :
-
-cd match-prediction-ann
+git clone :https://github.com/swathikiran123/matching-nomatch_partner-
 2️⃣ Install Dependencies:
 
 3️⃣ Run Inference Script:
@@ -121,4 +123,34 @@ cd match-prediction-ann
 
 streamlit run app.py
 
-📂 Project Structure
+📂 Project Structure:
+
+match-prediction-ann/
+├── data/
+│   ├── raw/                 # Raw synthetic responses (Google Form)
+│   ├── cleaned/             # Cleaned & preprocessed datasets
+│   └── data.csv            # Final dataset for training & inference
+│
+├── notebooks/
+│   └── optuna DL.ipynb           # Exploratory Data Analysis notebook
+│
+├── models/
+│   └── ann_model.h5        # Saved ANN weights
+│
+├── app/
+│   ├── app.py             # Streamlit app script
+│   └── utils.py           # Utility functions for app
+│
+├── scripts/
+│   ├── train.py          # Script for model training
+│   ├── run.py            # Inference script using argparse (CLI)
+│   └── preprocess.py     # Data preprocessing & labeling script
+│
+├── config/
+│   └── config.yaml       # Hyperparameters & global configs
+│
+├── requirements.txt     
+├── README.md           
+├── LICENSE
+└── .gitignore
+
