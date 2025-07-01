@@ -16,21 +16,21 @@ This project demonstrates a complete deep learning workflow, from synthetic data
 
 🔍 Hyperparameter Tuning using Optuna (Grid, Random, Bayesian)
 
-🎯 Overview
+**🎯 Overview**
 This project involves the development of an Artificial Neural Network (ANN) to predict match outcomes based on synthetic user-generated input features. The model can be utilized through:
 
 ⚙ Command-Line Interface (CLI) – Enables predictions via terminal using an inference script
 
 🌐 Interactive Web App – Provides a user-friendly Streamlit interface, deployable locally or on Hugging Face Spaces
 
-📊 Data Collection
+**📊 Data Collection**
 Source: Synthetic (collected via Google Form)
 Entries: 140+ responses
 Cleaning: Dropped columns like Timestamp, Email Address
-🏷 Data Labeling
+**🏷 Data Labeling**
 Technique: KMeans Clustering (n_clusters=2)
 Why: Automatically generates labels by uncovering hidden patterns in the data—no manual annotation or predefined rules required
-🔧 Data Preprocessing
+**🔧 Data Preprocessing**
 Label Encoding: Converted categorical labels to integers using LabelEncoder
 Why: Efficient for small datasets with clear label classes
 🧠 Model Architecture
@@ -50,7 +50,7 @@ Metrics: Accuracy, Precision, Recall
 📥 Accepts user input via dropdowns
 🔮 Predicts match outcome with a confidence score
 🧠 Supports real-time model training
-💻 Hugging Face Demo:
+💻 Hugging Face Demo:https://huggingface.co/spaces/Swathikiran/matching
 
 streamlit run app.py
 🧪 Inference Script (CLI)
