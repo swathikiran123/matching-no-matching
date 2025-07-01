@@ -133,21 +133,28 @@ streamlit run app.py
 match-prediction-ann/
 
 ├── data/
+
 │   ├── raw/                 # Raw synthetic responses (Google Form)
+
 │   ├── cleaned/             # Cleaned & preprocessed datasets
+
 │   └── data.csv            # Final dataset for training & inference
+
 │
 
 ├── notebooks/
-│   └── optuna DL.ipynb           # Exploratory Data Analysis notebook
+
+│   └── optuna DL.ipynb  
+
 │
 
 ├── models/
-│   └── ann_model.h5        # Saved ANN weights
+
+│   └── elite_28b_weight_knn.h5        
 │
 
 ├── app/
-│   ├── app.py             # Streamlit app script
+│   ├── app.py            
 │   └── utils.py           # Utility functions for app
 │
 
@@ -158,7 +165,7 @@ match-prediction-ann/
 │
 
 ├── config/
-│   └── config.yaml       # Hyperparameters & global configs
+│   └── config.yaml    
 │
 
 ├── requirements.txt     
