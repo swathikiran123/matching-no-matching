@@ -52,8 +52,11 @@ Metrics: Accuracy, Precision, Recall
 🚀 Deployable on Hugging Face or run locally!:
 
 📥 Accepts user input via dropdowns
+
 🔮 Predicts match outcome with a confidence score
+
 🧠 Supports real-time model training
+
 💻 Hugging Face Demo:https://huggingface.co/spaces/Swathikiran/matching
 
 streamlit run app.py
